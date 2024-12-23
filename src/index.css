@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@fontsource/inter/400.css'; /* Regular */
+@import '@fontsource/inter/700.css'; /* Bold */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+  @apply font-inter;
+}
